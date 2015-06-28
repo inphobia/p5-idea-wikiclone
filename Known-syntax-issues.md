@@ -3,3 +3,5 @@ Because of incremental nature of IDEA lexer and Perl's heavy context dependency,
 * In constructions like `(grep | map | sort) { ... } (/regex/ | <handle>)` you should help lexer to recognize regex or handle reading. Use `m/regex/` to force regex proper parsing and use enclosing parentheses for filehandle reading: `(<handle>)`
 * `our` variables should be declared at least once. You may refer them later as `$package::var`, but to make re-factoring works properly you must declare them somewhere. 
 * Try to avoid using 'fancy' method calls `method Foo::Bar`. Use canonical `Foo::Bar->method`. Fancy usage is supported, but may be glitchy.
+* If your project contains XS subs, declare them with prototypes in pure Perl. Plugin may find such declarations and has no any access to XS parts.
+* Braces symbols in regex MUST be escaped. `/\p{Word}/` is ok, but `/foo{/` is not. Perl recommends to to it but it's not required. Camelcade requires escaping.
