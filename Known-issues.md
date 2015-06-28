@@ -17,6 +17,7 @@ A lot of Perl syntax constructions are ambiguous:
 * `<` and `>` may be gt and lt operators or angle braces for &lt;FH&gt; reading.
 * `%` may be mod operator or hash sigil.
 * `:` may be a part of trenar operator `... ? ... : ...` or label declaration suffix.
+* `<<` may be a left shift operator or heredoc opener part.
 * `UNIVERSAL::can` may refer to the package `UNIVERSAL::can` or to sub `can` in `UNIVERSAL` namespace.
 * `word` may be a sub, a namespace, a package or a filehandle.
 
