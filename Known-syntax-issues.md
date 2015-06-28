@@ -1,0 +1,2 @@
+Because of incremental nature of IDEA lexer and Perl's heavy context dependency, there are few nuances in Perl syntax for Camelcade plugin:
+* In constructions like `(grep | map | sort) { ... } (/regex/ | <handle>)` you should help lexer to recognize regex or handle reading. Use `m/regex/` to force regex proper parsing and use enclosing parentheses for filehandle reading: `(<handle>)`
