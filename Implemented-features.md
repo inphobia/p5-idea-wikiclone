@@ -12,7 +12,7 @@ Here is the list of features, currently implemented in the Camelcade:
 * Packages auto-completion, navigation and refactoring.
 * Subs auto-completion, navigation and refactoring are only partially implemented. See [current subs resolution status] (https://github.com/hurricup/Perl5-IDEA/wiki/Current-subs-resolution-status).
 * Heredoc markers navigation refactoring.
-* Subs annotations (see below)
+* [Subs annotations] (https://github.com/hurricup/Perl5-IDEA/wiki/Subs-annotations)
 * Basic code inspections: 
   * Packages
     * Missing package file
