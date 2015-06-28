@@ -32,17 +32,3 @@ Here is the list of features, currently implemented in the Camelcade:
   * Database: SQL, MYSQL, PGSQL, TSQL, OSQLP, DB2, SQL92, SQLITE, SYBASE, HSQLDB, GSQL, OSQL (Both Database navigator and JetBrains Database tools are supported)
   * Web-related: JSON, CSS, DTD, XHTML, XML, HTML
   * Misc: JAVA, YAML, MANIFEST, PHP, PYTHON
-
-## Annotations
-Camelcade supports subs annotaions, which can help you to maintain your code and help Camelcade to resolve subs properly. Syntax is following:
-
-```
-#@deprecated
-sub some_deprecated_sub
-{
-...
-}
-```
-Such sub will be stroke out everywhere in your project sources.
-
-Following annotations are implemented: `deprecated, returns, method and override`. Currently, only `deprecated` does something.
