@@ -2,3 +2,4 @@ Because of incremental nature of IDEA lexer and Perl's heavy context dependency,
 * After initial project indexing, some package subs calls, like `Foo::bar` may be incorrectly recognized as package names. Hitting enter (causes re-lexing) should solve the problem.
 * In constructions like `(grep | map | sort) { ... } (/regex/ | <handle>)` you should help lexer to recognize regex or handle reading. Use `m/regex/` to force regex proper parsing and use enclosing parentheses for filehandle reading: `(<handle>)`
 * `our` variables should be declared at least once. You may refer them later as `$package::var`, but to make re-factoring works properly you must declare them somewhere. 
+* Try to avoid using 'fancy' method calls `method Foo::Bar`. Use canonical `Foo::Bar->method`. Fancy usage is supported, but may be glitchy.
