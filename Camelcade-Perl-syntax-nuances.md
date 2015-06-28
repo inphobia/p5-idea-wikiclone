@@ -5,4 +5,4 @@ Because of incremental nature of IDEA lexer and Perl's heavy context dependency,
 * Try to avoid using 'fancy' method calls `method Foo::Bar`. Use canonical `Foo::Bar->method`. Fancy usage is supported, but may be glitchy.
 * If your project contains XS subs, declare them with prototypes in pure Perl. Plugin may find such declarations and has no any access to XS parts.
 * Braces symbols in regex MUST be escaped. `/\p{Word}/` is ok, but `/foo{/` is not. Perl recommends to do it but it's not required. Camelcade requires escaping.
-* Currently only ascii identifiers are supported, you can't use non-ascii symbols in identifiers.
+* Currently only ascii identifiers are supported, you can't use non-ascii symbols in identifiers (TBF).
