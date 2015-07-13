@@ -22,3 +22,5 @@ Is pretty valid from Perl's perspective. But Camelcade requires something before
 * Try to avoid using 'fancy' object method calls `method Foo::Bar`. Use canonical `Foo::Bar->method`. Fancy usage is supported, but may be glitchy.
 * If your project contains XS subs, declare them with prototypes in pure Perl. Plugin may find such declarations and has no any access to XS parts.
 * Currently only ascii identifiers are supported, you can't use non-ascii symbols in identifiers (TBF).
+* Empty heredoc markers are not supported (TBF). 
+* Multiple heredoc openers in one line are not supported (TBF).
