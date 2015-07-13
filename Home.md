@@ -8,7 +8,7 @@ I think, It's not possible to create 100% proper Perl5 lexer/parser without 100%
 
 * [Getting started](https://github.com/hurricup/Perl5-IDEA/wiki/Getting-started) (lot of pictures)
 * [Implemented features](https://github.com/hurricup/Perl5-IDEA/wiki/Implemented-features)
-  * [Current subs resolution status](https://github.com/hurricup/Perl5-IDEA/wiki/Current-subs-resolution-status)
+  * [Current subs resolution status](https://github.com/hurricup/Perl5-IDEA/wiki/Subs-resolution-status)
   * [Syntax nuances](https://github.com/hurricup/Perl5-IDEA/wiki/Perl-syntax-nuances)
 * Extensions
   * [Subs annotations](https://github.com/hurricup/Perl5-IDEA/wiki/Subs-annotations)
