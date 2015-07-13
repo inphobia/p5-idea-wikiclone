@@ -10,4 +10,6 @@ I think, It's not possible to create 100% proper Perl5 lexer/parser without 100%
 * [Implemented features](https://github.com/hurricup/Perl5-IDEA/wiki/Implemented-features)
   * [Current subs resolution status](https://github.com/hurricup/Perl5-IDEA/wiki/Current-subs-resolution-status)
   * [Syntax nuances](https://github.com/hurricup/Perl5-IDEA/wiki/Perl-syntax-nuances)
+* Extensions
+  * [Subs annotations](https://github.com/hurricup/Perl5-IDEA/wiki/Subs-annotations)
 * [Known issues](https://github.com/hurricup/Perl5-IDEA/wiki/Known-issues)
