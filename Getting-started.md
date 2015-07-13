@@ -1,7 +1,7 @@
 
 #Installation
 * Install [IntelliJ IDEA](https://www.jetbrains.com/idea/) from JetBrains site (you may also use other JB IDE).
-* Go to `Settings -> Plugins -> Browse` repository and install Camelcade plugin
+* Go to `Settings -> Plugins -> Browse repository` and install Camelcade plugin
 * Restart IDEA
 
 # Creating and configuring project
