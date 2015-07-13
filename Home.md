@@ -5,3 +5,9 @@ Camelcade is a Perl5 plugin for IntelliJ IDEA. This project been created for mak
 Perl5 is really syntax-flexible, what can be really convenient in one-line programs, but often unnecessary in large projects. 
 
 I think, It's not possible to create 100% proper Perl5 lexer/parser without 100% repeating Perl5 respective sources, but we can try to do our best.
+
+* [Getting started](https://github.com/hurricup/Perl5-IDEA/wiki/Getting-started) (lot of pictures)
+* [Implemented features](https://github.com/hurricup/Perl5-IDEA/wiki/Implemented-features)
+  * [Current subs resolution status](https://github.com/hurricup/Perl5-IDEA/wiki/Current-subs-resolution-status)
+  * [Syntax nuances](https://github.com/hurricup/Perl5-IDEA/wiki/Perl-syntax-nuances)
+* [Known issues](https://github.com/hurricup/Perl5-IDEA/wiki/Known-issues)
