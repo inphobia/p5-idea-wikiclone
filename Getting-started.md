@@ -59,7 +59,7 @@ To let Camelcade search for package files, you should add your lib directory (wh
 
 ![Adding project's lib directory](https://github.com/hurricup/Perl5-IDEA/blob/master/images/gettingstarted/addlibdir.png)
 
-Remember, all packages being resolved relatively to one of the lib dirs: module or SDK specific:
+Remember, all packages being resolved relatively to one of the lib dirs: module or SDK-specific.
 
 In opened directory type dialog choose `Classes`:
 
