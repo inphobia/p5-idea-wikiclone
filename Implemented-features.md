@@ -9,7 +9,7 @@ Here is the list of features, currently implemented in the Camelcade:
 * Create Perl5 file context menu action.
 * Lexical and global variables auto-completion, navigation and refactoring.
 * Packages auto-completion, navigation and refactoring.
-* Subs auto-completion, navigation and refactoring are only partially implemented. See [current subs resolution status] (https://github.com/hurricup/Perl5-IDEA/wiki/Current-subs-resolution-status).
+* Subs auto-completion, navigation and refactoring are only partially implemented. See [current subs resolution status] (https://github.com/hurricup/Perl5-IDEA/wiki/Subs-annotations).
 * Heredoc markers navigation and refactoring.
 * [Subs annotations] (https://github.com/hurricup/Perl5-IDEA/wiki/Subs-annotations)
 * Basic code inspections: 
