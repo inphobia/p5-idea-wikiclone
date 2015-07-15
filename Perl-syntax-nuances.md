@@ -24,3 +24,4 @@ Is pretty valid from Perl's perspective. But Camelcade requires something before
 * Currently only ascii identifiers are supported, you can't use non-ascii symbols in identifiers (TBF).
 * Empty heredoc markers are not supported (TBF). 
 * Multiple heredoc openers in one line are not supported (TBF).
+* Camelcade actively using type in variable declaration: `my Foo::Bar $foo_bar_object`. Types helps to resolve methods.
