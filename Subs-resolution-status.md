@@ -5,7 +5,7 @@ At the moment, only obvious subs invocations are resolved:
 * `sub()`
 * `Package::sub()`
 * `Package->sub()` - with inheritance
-* `sub Package()` - works, but glitchy, without inheritance and not recommended
+* `sub Package()` - works, but glitchy, not recommended
 * `$self->sub()` - with inheritance
 * `SUPER::sub()` - with inheritance
 * `$obj->sub()` - with inheritance, if `$obj` has been declared with specific type:
