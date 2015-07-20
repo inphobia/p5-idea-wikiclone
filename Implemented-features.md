@@ -26,6 +26,7 @@ Here is the list of features, currently implemented in the Camelcade:
     * Deprecated sub
     * Undefined and undeclared sub 
     * Multiple sub definitions/declarations
+    * Fancy method call: `method Package()` with quickfix suggested to change to `Package->method()`
   * Variables
     * Undeclared variable
     * Shadowing
