@@ -1,4 +1,4 @@
-Here is the list of features, currently implemented in the Camelcade:
+Here is the list of features, currently implemented in the Camelcade (don't forget to check [known issues](https://github.com/hurricup/Perl5-IDEA/wiki/Known-issues)):
 
 * Perl5 lexing and parsing. As soon as it's not a port of native Perl5 lexer/parser, it may have some bugs. If you've encountered situation, where your code is not being parsed properly, feel free to create an issue with code example. 
   * Currently supported languages are Perl5, POD and php-style Perl5 (Embedded perl)
