@@ -1,12 +1,15 @@
-Camelcade introduces subs annotaions, which can help you to maintain your code and help Camelcade to resolve subs properly. Syntax is following:
+Camelcade introduces subs annotaions, which can help you to maintain your code and help Camelcade to resolve subs properly. 
 
+# #@deprecated
 ```
 #@deprecated
-sub some_deprecated_sub
-{
-...
-}
+sub some_deprecated_sub { ... }
 ```
 Such sub will be stroke out everywhere in your project sources.
 
-Following annotations are implemented: `deprecated, returns, method and override`. Currently, only `deprecated` does anything.
+# #@returns
+```
+#@returns Foo::Bar
+sub foo_bar_getter { ... }
+```
+Specify sub return value.
