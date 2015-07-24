@@ -13,3 +13,5 @@ Such sub will be stroke out everywhere in your project sources.
 sub foo_bar_getter { ... }
 ```
 Specify sub return value.
+
+`new` is implicitly annotated with package it's invoked for.
