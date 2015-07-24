@@ -14,10 +14,17 @@ my Foo::Bar $obj;
 ...
 $obj->method(); # we know that it's Foo::Bar method
 ```
+* `Foo::Bar->new->method->other_method` - with inheritance. To make this work, methods should be [annotated](https://github.com/hurricup/Perl5-IDEA/wiki/Subs-annotations) with `#@returns`.
+
 Inheritance is partially implemented, refactoring of object methods better not to use yet.
 
 ## What is planned
-* Subs annotations usage to resolve chained invocations like `$obj->method1->method2->method3`
+* Implement and improve heuristic to understand Perl code:
+```
+my $foo_bar = Foo::Bar->new();
+...
+$foo_bar->method();  # we should know that it's a method of Foo::Bar
+```
 * Annotation files, to be able to define return values and prototypes for packages without those.
 * Resolving constants
 * Resolving imports
