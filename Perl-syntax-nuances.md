@@ -1,5 +1,9 @@
 Because of incremental nature of IDEA lexer and Perl's heavy context dependency, there are few nuances in Perl syntax for Camelcade plugin:
-* Avoid too much of Perl's magic. Perl allows you to do a lot of things. And they might work. And sometimes not as intended. So - be straight, strict, simple, obvious and explicit.
+* Avoid too much of Perl's magic. Perl allows you to do a lot of things. And they might work. And sometimes not as intended. So - be straight, strict, simple, obvious and explicit. No code like this:
+```
+DynaLoader::bootstrap Math::MPFR $VERSION;
+```
+Perl is ambiguous enough, to add more. Plugin created to develop a product, not for Perl acrobatic.
 * Camelcade is less forgiving than Perl. But nothing critical. For example, you can't write: 
 ```
 push @array, $value, if $some_condition;
