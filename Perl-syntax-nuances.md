@@ -21,7 +21,6 @@ sub somesub{
 Is pretty valid from Perl's perspective. But Camelcade requires something before it (like `return` in this case). 
 * If some package is not being parsed correctly (like `Foo::Bar->method` being parsed as `Foo::Bar()->method`, you may explicitly specify that it's a package: `Foo::Bar::->method`. Don't forget report a bug with code example.
 * Use `m/PATTERN/` form of match regexp. Implicit form `/PATTERN/` is supported, but not always being parsed correctly. For example, after `grep/map/sort {} ` you MUST use `m//` form. Better to use it all the time. Implicit form of `?PATTERN?` is not supported in any way. Use `m?PATTERN?`.
-* Literal usage of `{ } [ ] ( )` symbols in matching part of regexp MUST be escaped. Perl itself allows you to use unescaped braces in some occasions, but this form is DEPRECATED. Camelcade requires escaping. 
 * `our` variables should be declared at least once. You may refer them later as `$package::var`, but to make re-factoring works properly you must declare them somewhere. 
 * Try to avoid using 'fancy' object method calls `method Foo::Bar`. Use canonical `Foo::Bar->method`. Fancy usage is supported, but may be glitchy.
 * If your project contains XS subs, declare them with prototypes in pure Perl. Plugin may find such declarations and has no any access to XS parts.
