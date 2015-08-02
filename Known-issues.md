@@ -1,7 +1,7 @@
 There are some known issues, which currently planned to fix.
 
-##Packages refactoring
-In last few builds packages refactoring is not working well. use/require occurrences are not being updated properly. Plugin may do most of the work for you, but manual checking required.
+## Unsupported major.minor version failure
+Check out: https://github.com/jshiell/checkstyle-idea/issues/142
 
 ##Subs refactoring
 You may safely refactor static methods, like `Foo::Bar::method`. Objects methods resolution is still in development and can't be reliably refactored. Plugin may do most of the work for you, but manual checking required.
