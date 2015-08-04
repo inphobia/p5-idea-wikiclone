@@ -4,6 +4,7 @@
 * Go to `Settings -> Plugins -> Browse repository` and install Camelcade plugin
 * Restart IDEA
 * Before starting, please, check out the list of [implemented features](https://github.com/hurricup/Perl5-IDEA/wiki/Implemented-features) and [known issues](https://github.com/hurricup/Perl5-IDEA/wiki/Known-issues).
+
 # Creating and configuring project
 Choose `File -> New -> Project`:
 
