@@ -1,5 +1,10 @@
 There are some known issues, which currently planned to fix.
 
+## Compatibility with JB products
+Because of my development mistake in the beginning of plugin development, i've used several features that are missing in all products but IDEA itself. So, plugin currently works as intended only in IDEA and IDEA Ultimate. This problem is [planned to be fixed](https://github.com/hurricup/Perl5-IDEA/issues/265) before release. 
+
+In other products, like PHPStorm, PyCharm, etc, it may work or may not (even may break main product functionality while enabled).
+
 ## Unsupported major.minor version failure
 Check out: https://github.com/jshiell/checkstyle-idea/issues/142
 
