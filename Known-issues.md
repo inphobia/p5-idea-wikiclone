@@ -14,6 +14,8 @@ You may safely refactor static methods, like `Foo::Bar::method`. Objects methods
 ##Variables refactoring
 Because variables in qq strings and regexes are not being interpolated yet, you should be careful with variables refactoring (such variables won't be changed). Plugin may do most of the work for you, but manual checking required.
 
+Also, please note, that variable may be annotated as unused it it's being used in qq strings/regexps only.
+
 ##Large files performance
 Editing of files larger than 100kb may be laggy. Problem is still not localized.
 
