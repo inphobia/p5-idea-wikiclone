@@ -5,16 +5,14 @@ Because of my mistake in the beginning of plugin development, i've used several 
 
 In other products, like PHPStorm, PyCharm, etc, it may work or may not (even may break main product functionality while enabled).
 
-## Unsupported major.minor version failure
-Check out: https://github.com/jshiell/checkstyle-idea/issues/142
-
 ##Subs refactoring
 You may safely refactor static methods, like `Foo::Bar::method`. Objects methods resolution is still in development and can't be reliably refactored. Plugin may do most of the work for you, but manual checking required.
 
-##Variables refactoring
-Because variables in qq strings and regexes are not being interpolated yet, you should be careful with variables refactoring (such variables won't be changed). Plugin may do most of the work for you, but manual checking required.
+##Package files refactoring
+There is a smart mechanism, which allows you to move/rename package files and nested namespaces will be automatically renamed with their usages. But, sometimes it misses something. Anyway - it will do most of the work.
 
-Also, please note, that variable may be annotated as unused it it's being used in qq strings/regexps only.
+##Unused subs and vars inspections
+If sub or variable can't be resolved because of tricky usage or invocation, it will be annotated as unused. But be careful.
 
 ##Large files performance
 Editing of files larger than 100kb may be laggy. Problem is still not localized.
