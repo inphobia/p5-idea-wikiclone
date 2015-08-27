@@ -13,4 +13,4 @@ I think, It's not possible to create 100% proper Perl5 lexer/parser without 100%
 * Extensions
   * [Subs annotations](https://github.com/hurricup/Perl5-IDEA/wiki/Subs-annotations)
 * [Known issues](https://github.com/hurricup/Perl5-IDEA/wiki/Known-issues)
-  * [Can't load project problem](https://github.com/jshiell/checkstyle-idea/issues/142)
+
