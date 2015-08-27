@@ -11,6 +11,6 @@ I think, It's not possible to create 100% proper Perl5 lexer/parser without 100%
   * [Current subs resolution status](https://github.com/hurricup/Perl5-IDEA/wiki/Subs-resolution-status)
   * [Syntax nuances](https://github.com/hurricup/Perl5-IDEA/wiki/Perl-syntax-nuances)
 * Extensions
-  * [Subs annotations](https://github.com/hurricup/Perl5-IDEA/wiki/Subs-annotations)
+  * [Subs and packages annotations](https://github.com/hurricup/Perl5-IDEA/wiki/Subs-annotations)
 * [Known issues](https://github.com/hurricup/Perl5-IDEA/wiki/Known-issues)
 
