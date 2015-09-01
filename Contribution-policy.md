@@ -25,8 +25,8 @@ Basically: we need all-sufficient contributors, who can work by themselves with 
 
 For those who agree with rules above:
 
-* One PR - one feature or bugfix. Every commit message should start with `issue hurricup/Perl5-IDEA#xxx` (where xxx is an issue number). If you are inactive for a week (or even less for critical bugs) someone else can take your issue.
-* If you are a collaborator of the project - make a branch for your bugfix/feature and mention issue in a branch name like `issuexxx` and mention issue in every commit to this branch as a first line: `issue #xxx`, this will automatically link your commit to the issue (branch name is not working this way).
+* One PR - one feature or bugfix. Every commit message should start with `hurricup/Perl5-IDEA#xxx` (where xxx is an issue number). If you are inactive for a week (or even less for critical bugs) someone else can take your issue.
+* If you are a collaborator of the project - make a branch for your bugfix/feature and mention issue in a branch name like `issuexxx` and mention issue in every commit to this branch as a first line: `#xxx`, this will automatically link your commit to the issue (branch name is not working this way).
 * To be released, your PR or branch must be up to date with current development branch. Merge last changes.
 * No one merges anything into the master or dev branch. All merges being done by release manager (hurricup at the moment)
 * Your bugfix must not break tests (when we'll have any). 
