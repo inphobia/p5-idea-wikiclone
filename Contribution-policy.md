@@ -35,5 +35,6 @@ For those who agree with rules above:
 * No partial bugfixes. If there is a big bug and it was not decomposed into several ones, you must fix it completely or soundly decompose original bug into several.
 * Same for features: no partial implementation. Full solution or decomposition.
 * As an original author I have some ideas about how things should be done. So, would be really nice if you'll contact me and we could discuss how specific feature should be implemented. I might have some architectural idea or plan which is not written anywhere.
+* You may pick any of the issues to fix from the next version's milestone.
 
 Good luck!
