@@ -19,7 +19,7 @@ Nobody will teach you how to write code for the plugin. We can direct you and gi
 Good places to start:
 * http://www.jetbrains.org/intellij/sdk/docs/basics/architectural_overview.html
 
-With high probability, your first PRs will be declined and requires re-work, but it's a start. After you'll get some experience - things will become easier and faster. Be patient and diligent. I've spent 5 month of working (not full day) on the plugin to achieve my level of knowledge. And it's not very high. 
+With high probability, your first PRs (Pull Requests) will be declined and requires re-work, but it's a start. After you'll get some experience - things will become easier and faster. Be patient and diligent. I've spent 5 month of working (not full day) on the plugin to achieve my level of knowledge. And it's not very high. 
 
 Basically: we need all-sufficient contributors, who can work by themselves with a little guidance.
 
