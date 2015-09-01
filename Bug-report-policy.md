@@ -11,4 +11,20 @@ comment in there if you have something to add.
 5. You should try to reproduce a bug with other plugins disabled, because it may be a conflict, not plugin's bug itself.
 6. We are deciding how urgent this bug is and may release a hotfix or put solution into next release.
 
+Here is the template for a bug report:
+```
+Description:
+
+How to reproduce:
+
+Proof of proper behavior:
+
+OS name and version:
+
+Java version:
+
+JetBrains product name and version:
+
+Priority:
+```
 Thank you for bug reporting.
