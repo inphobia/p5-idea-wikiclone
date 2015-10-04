@@ -56,19 +56,9 @@ Here you may mark directories of your module as Sources and Tests. Also you may 
 
 ![Marking directories as source, tests. Excluding some of them.](https://github.com/hurricup/Perl5-IDEA/blob/master/images/gettingstarted/marksources.png)
 
-To let Camelcade search for package files, you should add your lib directory (what you are doing with -I parameter of Perl interpreter). On the `Dependencies` tab, choose `Add -> JARs or directories...` and select your lib directory:
-
-![Adding project's lib directory](https://github.com/hurricup/Perl5-IDEA/blob/master/images/gettingstarted/addlibdir.png)
+To let Camelcade search for package files, you should mark your lib directory as a library source (what you are doing with -I parameter of Perl interpreter). 
 
 Remember, all packages being resolved relatively to one of the lib dirs: module or SDK-specific.
-
-In opened directory type dialog choose `Classes`:
-
-![Choosing lib directory type](https://github.com/hurricup/Perl5-IDEA/blob/master/images/gettingstarted/chooselibtype.png)
-
-Move your module lib directory above the SDK's one. Otherwise, Camelcade may find package in Perl's lib path if module is already installed:
-
-![Moving library up into resolution order](https://github.com/hurricup/Perl5-IDEA/blob/master/images/gettingstarted/movelibup.png)
 
 #How should it look like
 
