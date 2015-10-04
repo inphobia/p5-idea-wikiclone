@@ -3,14 +3,14 @@ Here is the list of features, currently implemented in the Camelcade (don't forg
 * Perl5 lexing and parsing. As soon as it's not a port of native Perl5 lexer/parser, it may have some bugs. If you've encountered situation, where your code is not being parsed properly, feel free to create an issue with code example. 
   * Currently supported languages are Perl5, POD, [Mojolicious templates](https://github.com/hurricup/Perl5-IDEA/wiki/Mojolicious-support) and php-style Perl5 (Embedded perl)
 * Perl5 interpreter (SDK) and Perl5 module type support. You should add Perl5 interpreter as project SDK to give Camelcade access to installed packages. [More..](https://github.com/hurricup/Perl5-IDEA/wiki/Getting-started)
+* Run configurations for Perl scripts.
 * Syntax highlighting. Perl and POD sources are highlighted and there is a Default theme, taken from NP++. 
-  * Color settings dialog example is still buggy and doesn't show some syntax constructions ([TBF](https://github.com/hurricup/Perl5-IDEA/issues/215)).
 * Interpolation in appropriate strings, here-docs and regexps.
   * NB:
     * Code interpolation is still lame, and may show that it's ok in places where it is not.
-    * Regex interpolation can't distinct array element from scalar with character group after it.
     * Here-doc language injection is automatically turned off in QQ/QX heredoc if there is at least one variable.
-* Brace matching, quote matching, regex delimiters matching, code folding, quote handling, live templates for Perl5.
+* Brace matching, quote matching, regex delimiters matching, code folding, quote handling.
+* Live templates for Perl5 constructions and test scripts macroses.
 * Go to symbol navigation for: subs, constants, packages and global variables.
 * File structure view
 * Class hierarchy view
@@ -18,7 +18,8 @@ Here is the list of features, currently implemented in the Camelcade (don't forg
 * Inherited subs resolution, auto-completion and refactoring (both `dfs` and `c3` mros supported)
 * Imported subs and variables resolution, auto-completion and refactoring (re-factoring requires polishing, export/import arguments are not being refactored only declaration and usage)
 * AUTOLOAD-ed methods and subs resolution and decoration (atm. AUTOLOAD must be defined as a sub, not a named block).
-* Create Perl5 file context menu actions.
+* Create Perl5 scripts, packages, tests and templates context menu actions.
+* Basic code-style settings and basic formatter.
 * Lexical and global variables auto-completion, navigation and refactoring.
 * Global variables declaration with `use vars`
 * Packages auto-completion, navigation and refactoring.
