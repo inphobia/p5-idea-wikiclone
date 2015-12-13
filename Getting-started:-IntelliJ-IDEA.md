@@ -1,3 +1,5 @@
+Getting started for specialized IDEs may be found [here](https://github.com/hurricup/Perl5-IDEA/wiki/Getting-started:-specialized-IDEs-(PyCharm,-PHPStorm,-etc)).
+
 #Installation
 * Install [IntelliJ IDEA](https://www.jetbrains.com/idea/)
 * Start IDEA and go to the `File -> Settings -> Plugins -> Browse repository` and install Camelcade plugin
