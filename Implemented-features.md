@@ -1,7 +1,11 @@
 Here is the list of features, currently implemented in the Camelcade (don't forget to check [known issues](https://github.com/hurricup/Perl5-IDEA/wiki/Known-issues)):
 
 * Perl5 lexing and parsing. As soon as it's not a port of native Perl5 lexer/parser, it may have some bugs. If you've encountered situation, where your code is not being parsed properly, feel free to create an issue with code example. 
-  * Currently supported languages are Perl5, POD, [Mojolicious templates](https://github.com/hurricup/Perl5-IDEA/wiki/Mojolicious-support) and php-style Perl5 (Embedded perl)
+* Currently supported languages are Perl5, POD, and some extensions:
+  * [Mojolicious templates](https://github.com/hurricup/Perl5-IDEA/wiki/Mojolicious-support) 
+  * Php-style Perl5 (Embedded perl)
+  * [Moose](https://github.com/hurricup/Perl5-IDEA/wiki/Moose-support)
+  * [Method::Signatures::Simple](http://search.cpan.org/dist/Method-Signatures-Simple/lib/Method/Signatures/Simple.pm)
 * Perl5 interpreter (SDK) and Perl5 module type support. You should add Perl5 interpreter as project SDK to give Camelcade access to installed packages. [More..](https://github.com/hurricup/Perl5-IDEA/wiki/Getting-started)
 * Run configurations for Perl scripts.
 * Syntax highlighting. Perl and POD sources are highlighted and there is a Default theme, taken from NP++. 
