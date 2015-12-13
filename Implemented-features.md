@@ -5,7 +5,7 @@ Here is the list of features, currently implemented in the Camelcade (don't forg
   * [Mojolicious templates](https://github.com/hurricup/Perl5-IDEA/wiki/Mojolicious-support) 
   * Php-style Perl5 (Embedded perl)
   * [Moose](https://github.com/hurricup/Perl5-IDEA/wiki/Moose-support)
-  * [Method::Signatures::Simple](http://search.cpan.org/dist/Method-Signatures-Simple/lib/Method/Signatures/Simple.pm)
+  * [Method::Signatures::Simple](http://search.cpan.org/dist/Method-Signatures-Simple/lib/Method/Signatures/Simple.pm) - `method` and `func`
 * Perl5 interpreter (SDK) and Perl5 module type support. You should add Perl5 interpreter as project SDK to give Camelcade access to installed packages. [More..](https://github.com/hurricup/Perl5-IDEA/wiki/Getting-started)
 * Run configurations for Perl scripts.
 * Syntax highlighting. Perl and POD sources are highlighted and there is a Default theme, taken from NP++. 
@@ -23,7 +23,15 @@ Here is the list of features, currently implemented in the Camelcade (don't forg
 * Imported subs and variables resolution, auto-completion and refactoring (re-factoring requires polishing, export/import arguments are not being refactored only declaration and usage)
 * AUTOLOAD-ed methods and subs resolution and decoration (atm. AUTOLOAD must be defined as a sub, not a named block).
 * Create Perl5 scripts, packages, tests and templates context menu actions.
-* Basic code-style settings and basic formatter.
+* Code style and formatter:
+  * Perl5-specific CodeStyle settings panel.
+  * Spacing settings for perl code.
+  * Optional quotes automatic insertion/removing. NB: numeric values are not quoted/unquoted.
+  * Optional dereference insertion/removing between hash/array indexes.
+  * Optional parentheses insertion/removing in statement modifiers.
+  * Conversion $var->{key} to $$var{key} and vice versa.
+  * Conversion @$array_ref to @{$array_ref} and vice versa (does not affects hash/array elements or slices).
+  * Conversion main:: to :: and vice versa.
 * Lexical and global variables auto-completion, navigation and refactoring.
 * Global variables declaration with `use vars`
 * Packages auto-completion, navigation and refactoring.
