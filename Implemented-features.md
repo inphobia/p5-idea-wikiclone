@@ -29,9 +29,9 @@ Here is the list of features, currently implemented in the Camelcade (don't forg
   * Optional quotes automatic insertion/removing. NB: numeric values are not quoted/unquoted.
   * Optional dereference insertion/removing between hash/array indexes.
   * Optional parentheses insertion/removing in statement modifiers.
-  * Conversion $var->{key} to $$var{key} and vice versa.
-  * Conversion @$array_ref to @{$array_ref} and vice versa (does not affects hash/array elements or slices).
-  * Conversion main:: to :: and vice versa.
+  * Conversion `$var->{key}` to `$$var{key}` and vice versa.
+  * Conversion `@$array_ref` to `@{$array_ref}` and vice versa (does not affects hash/array elements or slices).
+  * Conversion `main::` to `::` and vice versa.
 * Lexical and global variables auto-completion, navigation and refactoring.
 * Global variables declaration with `use vars`
 * Packages auto-completion, navigation and refactoring.
