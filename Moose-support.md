@@ -1,4 +1,4 @@
-Basic Moose support implemented:
+Basic [Moose](http://search.cpan.org/~ether/Moose/lib/Moose.pm) support implemented:
 
 * Implemented proper use Moose; and use Moo; processing.
 * Implemented Moose/Moo keywords parsing and autocompletion: inner, super, meta.
