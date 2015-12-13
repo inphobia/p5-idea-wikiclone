@@ -1,3 +1,5 @@
+IntelliJ IDEA getting started can be found [here](https://github.com/hurricup/Perl5-IDEA/wiki/Getting-started:-IntelliJ-IDEA).
+
 #Installation
 * Install your IDE from the [JetBrains website](https://www.jetbrains.com/)
 * Start IDE and go to `File -> Settings -> Plugins -> Browse repository` and install Camelcade plugin
