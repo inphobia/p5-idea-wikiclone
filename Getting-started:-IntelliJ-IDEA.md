@@ -1,6 +1,6 @@
 #Installation
-* Install [IntelliJ IDEA](https://www.jetbrains.com/idea/) from JetBrains site (you may also use other JB IDE).
-* Go to `Settings -> Plugins -> Browse repository` and install Camelcade plugin
+* Install [IntelliJ IDEA](https://www.jetbrains.com/idea/)
+* Start IDEA and go to the `File -> Settings -> Plugins -> Browse repository` and install Camelcade plugin
 * Restart IDEA
 * Before starting, please, check out the list of [implemented features](https://github.com/hurricup/Perl5-IDEA/wiki/Implemented-features) and [known issues](https://github.com/hurricup/Perl5-IDEA/wiki/Known-issues).
 
