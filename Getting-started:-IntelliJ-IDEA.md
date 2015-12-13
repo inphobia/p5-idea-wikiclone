@@ -64,7 +64,7 @@ Remember, all packages being resolved relatively to one of the lib dirs: module 
 If everything was done right, you'll see a similar picture:
 * You module 
 * Colorized directories of your module (depending on type)
-* Your lib directory will have annotation `library home`
+* Your lib directory should be purple
 
 ![Configured project](https://github.com/hurricup/Perl5-IDEA/blob/master/images/gettingstarted/finalstep.png)
 
