@@ -7,7 +7,11 @@ IntelliJ IDEA getting started can be found [here](https://github.com/hurricup/Pe
 * Before starting, please, check out the list of [implemented features](https://github.com/hurricup/Perl5-IDEA/wiki/Implemented-features) and [known issues](https://github.com/hurricup/Perl5-IDEA/wiki/Known-issues).
 
 #Selecting interpreter
-In order to properly resolve installed packages, you should select Perl interperter. This can be done in `File -> Settings -> Languages & Frameworks -> Perl5 settings`. NB: env is not supported. It should be direct path.
+In order to properly resolve installed packages, you should select Perl interperter. This can be done in `File -> Settings -> Languages & Frameworks -> Perl5 settings`. 
+
+IMPORTANT: 
+* env is not supported. It should be direct path.
+* It should be path to perl, not perl's path. e.g. for `/usr/bin/perl` you should specify only `/usr/bin`
 
 ![Selecting Perl5 interpreter](https://github.com/hurricup/Perl5-IDEA/blob/master/images/gettingstarted_microide/selectinterpreter.png)
 
