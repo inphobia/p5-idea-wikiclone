@@ -2,7 +2,7 @@ Here is the list of features, currently implemented in the Camelcade (don't forg
 
 * Perl5 lexing and parsing. As soon as it's not a port of native Perl5 lexer/parser, it may have some bugs. If you've encountered situation, where your code is not being parsed properly, feel free to create an issue with code example. 
 * Currently supported languages are Perl5, POD, and some extensions:
-  * [Class::Accessor]() api 
+  * [Class::Accessor](http://search.cpan.org/~kasei/Class-Accessor/lib/Class/Accessor.pm) api 
   * [Exporter](https://github.com/hurricup/Perl5-IDEA/wiki/Exporter-support)
   * [Mason2](https://github.com/hurricup/Perl5-IDEA/wiki/Mason2-support)
   * [Method::Signatures::Simple](http://search.cpan.org/dist/Method-Signatures-Simple/lib/Method/Signatures/Simple.pm) - `method` and `func`
