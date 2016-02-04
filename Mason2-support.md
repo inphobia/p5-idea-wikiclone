@@ -1,4 +1,4 @@
-Camelcade supports [Mason2](http://search.cpan.org/perldoc/Mason):
+Camelcade supports [Mason2](http://search.cpan.org/~jswartz/Mason/lib/Mason.pm):
 * Filetypes for Mason2: top-level component, internal component and perl component
 * Lexing and parsing of Mason2 files
 * Configuration Settings to select Mason2 components roots
