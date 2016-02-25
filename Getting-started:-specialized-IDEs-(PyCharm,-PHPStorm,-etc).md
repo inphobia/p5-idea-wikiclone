@@ -12,6 +12,7 @@ In order to properly resolve installed packages, you should select Perl interper
 IMPORTANT: 
 * env is not supported. It should be direct path.
 * It should be path to perl, not perl's path. e.g. for `/usr/bin/perl` you should specify only `/usr/bin`
+* this settings available only with opened project
 
 ![Selecting Perl5 interpreter](https://github.com/hurricup/Perl5-IDEA/blob/master/images/gettingstarted_microide/selectinterpreter.png)
 
