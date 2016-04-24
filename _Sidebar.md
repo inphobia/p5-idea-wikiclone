@@ -13,6 +13,7 @@
   * [IDEA](https://github.com/hurricup/Perl5-IDEA/wiki/Getting-started:-IntelliJ-IDEA)
   * [Other IDEs](https://github.com/hurricup/Perl5-IDEA/wiki/Getting-started:-specialized-IDEs-(PyCharm,-PHPStorm,-etc))
 * Misc
+  * [Known issues](https://github.com/hurricup/Perl5-IDEA/wiki/Known-issues)
   * [Syntax nuances](https://github.com/hurricup/Perl5-IDEA/wiki/Perl-syntax-nuances)
   * [Bug report policy](https://github.com/hurricup/Perl5-IDEA/wiki/Bug-report-policy)
   * [Contribution policy](https://github.com/hurricup/Perl5-IDEA/wiki/Contribution-policy)
