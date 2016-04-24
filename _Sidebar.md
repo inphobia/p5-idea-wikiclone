@@ -2,6 +2,7 @@
 * Features
   * [Basic features](https://github.com/hurricup/Perl5-IDEA/wiki/Implemented-features)
   * [Exporter](https://github.com/hurricup/Perl5-IDEA/wiki/Exporter-support)
+  * [HTML::Mason](https://github.com/hurricup/Perl5-IDEA/wiki/HTML::Mason-support)
   * [Mason2](https://github.com/hurricup/Perl5-IDEA/wiki/Mason2-support)
   * [Mojolicious](https://github.com/hurricup/Perl5-IDEA/wiki/Mojolicious-support)
   * [Moose/Moo](https://github.com/hurricup/Perl5-IDEA/wiki/Moose-support)
