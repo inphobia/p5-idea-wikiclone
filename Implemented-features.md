@@ -4,6 +4,7 @@ Here is the list of features, currently implemented in the Camelcade (don't forg
 * Currently supported languages are Perl5, POD, and some extensions:
   * [Class::Accessor](http://search.cpan.org/~kasei/Class-Accessor/lib/Class/Accessor.pm) api 
   * [Exporter](https://github.com/hurricup/Perl5-IDEA/wiki/Exporter-support)
+  * [HTML::Mason](https://github.com/hurricup/Perl5-IDEA/wiki/HTML::Mason-support)
   * [Mason2](https://github.com/hurricup/Perl5-IDEA/wiki/Mason2-support)
   * [Method::Signatures::Simple](http://search.cpan.org/dist/Method-Signatures-Simple/lib/Method/Signatures/Simple.pm) - `method` and `func`
   * [Mojolicious templates](https://github.com/hurricup/Perl5-IDEA/wiki/Mojolicious-support) 
@@ -26,7 +27,7 @@ Here is the list of features, currently implemented in the Camelcade (don't forg
   * Gutter navigation to super/sub classes
   * Gutter navigation to super/inner class methods
   * Go to symbol navigation for: subs, constants, packages and global variables
-  * Go to declaration navigation for subs, variables, packages and here-doc markers. See [current subs resolution status] (https://github.com/hurricup/Perl5-IDEA/wiki/Subs-resolution-status).
+  * Go to declaration navigation for subs, variables, packages, labels and here-doc markers. See [current subs resolution status] (https://github.com/hurricup/Perl5-IDEA/wiki/Subs-resolution-status).
   * Both `dfs` and `c3` mros supported for methods resolution
   * AUTOLOADed methods may be resolved, if AUTOLOAD declared as a named block, not sub
   * All navigatable entities can be refactored
@@ -53,6 +54,8 @@ Here is the list of features, currently implemented in the Camelcade (don't forg
 * Intentions 
   * Convert string to here-doc
 * Code inspections: 
+  * Labels
+    * Undeclared and unresolved labels inspections
   * Packages
     * Missing package file
     * Undefined namespace
