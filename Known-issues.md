@@ -7,4 +7,4 @@ You may safely refactor static methods, like `Foo::Bar::method`. Objects methods
 If sub or variable can't be resolved because of tricky usage or invocation, it will be annotated as unused. But be careful.
 
 ##Large files performance
-Editing of files larger than 100kb may be laggy. Problem is still not localized.
+Editing of files larger than 100kb may be laggy. Situation is going better with every version, but not sure it will be perfect sometime. So recommend to avoid creating huge files.
