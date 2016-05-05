@@ -8,5 +8,4 @@ Perl is ambiguous enough, to add more. Plugin created to develop a product, not 
 * Use `m/PATTERN/` form of match regexp. Implicit form `/PATTERN/` is supported, but not always being parsed correctly. Implicit form of `?PATTERN?` is not supported in any way. Use `m?PATTERN?`.
 * `our` variables should be declared at least once. You may refer them later as `$package::var`, but to make re-factoring works properly you must declare them somewhere. 
 * Try to avoid using 'fancy' object method calls `method Foo::Bar`. Use canonical `Foo::Bar->method`. Fancy usage is supported, but may be glitchy.
-* If your project contains XS subs, declare them with prototypes in pure Perl. Plugin may find such declarations and has no any access to XS parts.
 * Camelcade actively using type in variable declaration: `my Foo::Bar $foo_bar_object`. Types helps to resolve methods.
