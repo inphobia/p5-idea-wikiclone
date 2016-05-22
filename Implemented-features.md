@@ -3,6 +3,7 @@ Here is the list of features, currently implemented in the Camelcade (don't forg
 * Perl5 lexing and parsing. As soon as it's not a port of native Perl5 lexer/parser, it may have some bugs. If you've encountered situation, where your code is not being parsed properly, feel free to create an issue with code example. 
 * Currently supported languages are Perl5, POD, and some extensions:
   * [Class::Accessor](http://search.cpan.org/~kasei/Class-Accessor/lib/Class/Accessor.pm) api 
+  * [TryCatch](http://search.cpan.org/~ash/TryCatch/lib/TryCatch.pm) basic support. Currently `catch{}`, `catch($var){}` and `catch(Foo::Bar $var){}` are supported
   * [Exporter](https://github.com/hurricup/Perl5-IDEA/wiki/Exporter-support)
   * [HTML::Mason](https://github.com/hurricup/Perl5-IDEA/wiki/HTML::Mason-support)
   * [Mason2](https://github.com/hurricup/Perl5-IDEA/wiki/Mason2-support)
@@ -31,6 +32,7 @@ Here is the list of features, currently implemented in the Camelcade (don't forg
   * Both `dfs` and `c3` mros supported for methods resolution
   * AUTOLOADed methods may be resolved, if AUTOLOAD declared as a named block, not sub
   * All navigatable entities can be refactored
+  * Class methods re-factoring with methods in subclasses and optionally in super-classes
 * Completion and Smart Keys
   * Quote handler for regex and quote-like operators
   * Variables, subs/methods and packages auto-completion
@@ -46,6 +48,9 @@ Here is the list of features, currently implemented in the Camelcade (don't forg
   * Conversion `$var->{key}` to `$$var{key}` and vice versa.
   * Conversion `@$array_ref` to `@{$array_ref}` and vice versa (does not affects hash/array elements or slices).
   * Conversion `main::` to `::` and vice versa.
+* Actions
+  * Deparse file - deparses current file using `B::Deparse`.
+  * Re-format with `Perl::Tidy` - reformats current file. All configuration must be done via `.perltidyrc` file in project root (see [Perl::Tidy](http://search.cpan.org/~shancock/Perl-Tidy/) documentation). There is no UI to configure settings for now/
 * Code Generation
   * Actions to generate getters and setters
   * Action to generate class constructor
@@ -53,7 +58,13 @@ Here is the list of features, currently implemented in the Camelcade (don't forg
   * Create Perl5 scripts, packages, tests and templates context menu actions.
 * Intentions 
   * Convert string to here-doc
+* Documentation
+  * POD support: live templates, completion, navigation, refactoring and few
+useful inspections
+  * Context help: hit Ctrl+Q on element in question and get your answer from
+pod files or inline pod
 * Code inspections: 
+  * `Perl::Critic` annotations. All configurations must be done via `.perlcriticrc` file in project root or home dir (see [Perl::Critic](http://search.cpan.org/~thaljef/Perl-Critic/) documentation). There is no any UI to configure `Perl::Critic` settings for now. Only enable/disable checkbox in Perl5 settings.
   * Labels
     * Undeclared and unresolved labels inspections
   * Packages
@@ -76,11 +87,13 @@ Here is the list of features, currently implemented in the Camelcade (don't forg
     * Unused lexical variables 
     * Unused global variables 
     * File level variables inspection. (Pretty useful while migrating from CGI to some persistent environment)
-* IntelliLang integration. Heredoc texts may be automatically injected with other language, depending on marker text. To make this work, IntelliLang plugin must be enabled and appropriate Language supported by IDEA natively or via plugin. Following markers are currently supported:
-  * JavaScript: JS, JS15, JS16, JS17, JS18, APPLEJS
-  * Database: SQL, MYSQL, PGSQL, TSQL, OSQLP, DB2, SQL92, SQLITE, SYBASE, HSQLDB, GSQL, OSQL (Both Database navigator and JetBrains Database tools are supported)
-  * Web-related: JSON, CSS, DTD, XHTML, XML, HTML
-  * Templating: EPERL5, MOJO
-  * Misc: JAVA, YAML, MANIFEST, PHP, PYTHON, PERL5
+* IntelliLang integration. 
+  * Heredoc texts may be automatically injected with other language, depending on marker text. To make this work, IntelliLang plugin must be enabled and appropriate Language supported by IDEA natively or via plugin. Following markers are currently supported:
+    * JavaScript: JS, JS15, JS16, JS17, JS18, APPLEJS
+    * Database: SQL, MYSQL, PGSQL, TSQL, OSQLP, DB2, SQL92, SQLITE, SYBASE, HSQLDB, GSQL, OSQL (Both Database navigator and JetBrains Database tools are supported)
+    * Web-related: JSON, CSS, DTD, XHTML, XML, HTML
+    * Templating: EPERL5, MOJO
+    * Misc: JAVA, YAML, MANIFEST, PHP, PYTHON, PERL5
+  * `#@inject` annotation, allows you to inject other languages in strings. Annotation may be before the string, before the statement containing the string or in the end of line string ends. (NB: eol annotation may be misleading and should be considered experimental, see [#1072](https://github.com/hurricup/Perl5-IDEA/issues/1072). Need a feedback.)
 * IDEA extensions
   * Extension point for package processors and set of interfaces to implement custom package processors (like `Mojo::Base` which is `strict`+`v5.10`+`base`)
