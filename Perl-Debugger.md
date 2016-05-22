@@ -62,11 +62,11 @@ Normal scenario is to start server part (perl process or IDE debugging session) 
 * Watches
 
 # Important notes
-* Atm there is no threading support, not even tested in threaded environment
-* Don't know how it will work with fork
-* Watch evals being done in scalar context, so if you'll try to watch `@somearray`, you'll probably get just number of elements. To make this work, you should add a reference to watch: `\@somearray`
-* If you are familiar with perl native debugger and actions from there, ind IDEA they are part of breakpoints, see 'Log evaluated expression'. Note, that your expression should not print anything, it should return result which 
-will be printed in console by IDE. Breakpoint condition affects these too. So they will print only if condition is met.
+* Atm there is no threading support, it hasn't been tested in threaded environment
+* forked processes has not been tested
+* Watch evals are being done in scalar context, so if you'll try to watch `@somearray`, you'll probably get just number of elements. To make this work, you should add a reference to watch: `\@somearray`
+* If you are familiar with perl native debugger and actions from there, in IDEA they are part of breakpoints, see 'Log evaluated expression'. Note, that your expression should not print anything, it should return a value which 
+should be printed in console of IDE. Breakpoint condition affects these too. So they will print only if condition is met.
 * Incorrectly set `Script encoding` may cause performance issues on IDE side
 
 # How debugger handles encodings
@@ -74,6 +74,6 @@ will be printed in console by IDE. Breakpoint condition affects these too. So th
 As soon as perl knows only utf8 and bytes, it was not a trivial question how to handle non-utf encodings. For now it works this way:
 
 * IDE always waiting utf8 from debug socket.
-* If debugger see that utf8 flag is on, it sends data (variables values, files sources) as is. 
-* If debugger see that content has no utf8 flag set and contains bytes with code > 0x80, it encodes data from configured 'Script encoding' to utf8 using Encode::from_to 
+* If the debugger detects that utf8 flag is on, it sends data (variables values, files sources) as is.
+* If the debugger detects that content has no utf8 flag set and contains bytes with code > 0x80, it encodes the data from the configured 'Script encoding' to utf8 using Encode::from_to
 * All watches and breakpoint conditions will be converted to configured script encoding
