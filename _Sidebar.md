@@ -1,6 +1,7 @@
 * [Home](https://github.com/hurricup/Perl5-IDEA/wiki)
 * Features
   * [Basic features](https://github.com/hurricup/Perl5-IDEA/wiki/Implemented-features)
+  * [Debugger](https://github.com/hurricup/Perl5-IDEA/wiki/Perl-Debugger)
   * [Exporter](https://github.com/hurricup/Perl5-IDEA/wiki/Exporter-support)
   * [HTML::Mason](https://github.com/hurricup/Perl5-IDEA/wiki/HTML::Mason-support)
   * [Mason2](https://github.com/hurricup/Perl5-IDEA/wiki/Mason2-support)
