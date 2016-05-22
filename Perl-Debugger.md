@@ -21,6 +21,7 @@ In case of local debugging, you don't need to configure environment, just start 
 There are two available Run/Debug configurations for perl scripts.
 
 ### Perl
+![Local run/debug settings](https://raw.githubusercontent.com/hurricup/Perl5-IDEA/master/images/debugger/local_settings.png)
 
 This configuration is for local scripts running and debugging. Following settings available:
 
@@ -36,6 +37,7 @@ This configuration is for local scripts running and debugging. Following setting
 After creating run configuraion you may "Start debug" and see what happens.
 
 ### Perl Remote Debugging
+![Remote debug settings](https://raw.githubusercontent.com/hurricup/Perl5-IDEA/master/images/debugger/remote_settings.png)
 
 This configruration may be used for debugging a website running on another machine. It would be really nice if you have a local copy of running project, but it's not necessary.
 
