@@ -39,6 +39,7 @@ Here is the list of features, currently implemented in the Camelcade (don't forg
   * Auto-suggestion of names for here-doc markers, variables and subs/methods
   * Auto-completion of hash indexes (dumb one, offers seen strings)
   * Live templates for Perl5 constructions and test scripts macroses.
+  * Auto-completion for XSubs. To make it work they should be deparsed from the Perl5 settings or popup on IDE start.
 * Code style and formatter:
   * Perl5-specific CodeStyle settings panel.
   * Spacing settings for perl code.
