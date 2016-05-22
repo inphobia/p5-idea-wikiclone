@@ -8,3 +8,4 @@ Camelcade supports [Mojolicious](http://mojolicio.us/) templates. At the moment 
 * Code folding
 * Automatic close tag insertion on typing (open tag + space)
 * Formatter and pre-formatter for perl code
+* Mojolicious helpers support: navigation, completion and refactoring. NB:helpers should be declared explicitly, `$app->helper($_, sub{}) for @something;` wont work.
