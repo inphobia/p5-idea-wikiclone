@@ -60,6 +60,7 @@ Normal scenario is to start server part (perl process or IDE debugging session) 
 * Loaded sources browser
 * Compiled evals browser 
 * Watches
+* Breakpoints support for eval-based templating engines. Requires [support from engine side](http://search.cpan.org/~hurricup/Devel-Camelcadedb/lib/Devel/Camelcadedb.pod).
 
 # Important notes
 * Atm there is no threading support, it hasn't been tested in threaded environment
