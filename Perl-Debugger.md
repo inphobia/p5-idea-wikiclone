@@ -67,7 +67,7 @@ Normal scenario is to start server part (perl process or IDE debugging session) 
 * forked processes has not been tested
 * Watch evals are being done in scalar context, so if you'll try to watch `@somearray`, you'll probably get just number of elements. To make this work, you should add a reference to watch: `\@somearray`
 * If you are familiar with perl native debugger and actions from there, in IDEA they are part of breakpoints, see 'Log evaluated expression'. Note, that your expression should not print anything, it should return a value which 
-should be printed in console of IDE. Breakpoint condition affects these too. So they will print only if condition is met.
+should be printed in console of IDE. Breakpoint condition affects these too. So they will be printed only if condition is met.
 * Incorrectly set `Script encoding` may cause performance issues on IDE side
 
 # How debugger handles encodings
