@@ -43,6 +43,7 @@ This configruration may be used for debugging a website running on another machi
 
 Configuration options looks pretty much the same as in Perl configuration with few differences:
 
+* Remote project root - being used by debugger to map remote file paths to the local ones. If path is wrong - breakpoints wont work.
 * Connection mode - defines what is going to connnect to what. Relates to `PERL5_DEBUG_ROLE` environment variable.
 * Server host and port - relates to `PERL5_DEBUG_HOST` and `PERL5_DEBUG_PORT` respectively.
 
