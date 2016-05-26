@@ -70,6 +70,7 @@ Normal scenario is to start server part (perl process or IDE debugging session) 
 * If you are familiar with perl native debugger and actions from there, in IDEA they are part of breakpoints, see 'Log evaluated expression'. Note, that your expression should not print anything, it should return a value which 
 should be printed in console of IDE. Breakpoint condition affects these too. So they will be printed only if condition is met.
 * Incorrectly set `Script encoding` may cause performance issues on IDE side
+* Loading non-utf files with set breakpoints on project opening forces using IDE default encoding for them (IDE bug). Will be fixed in next [IDEA version](https://youtrack.jetbrains.com/issue/IDEA-152063).
 
 # How debugger handles encodings
 
