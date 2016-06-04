@@ -51,7 +51,7 @@ Here is the list of features, currently implemented in the Camelcade (don't forg
   * Conversion `main::` to `::` and vice versa.
 * Actions
   * Deparse file - deparses current file using `B::Deparse`.
-  * Re-format with `Perl::Tidy` - reformats current file. All configuration must be done via `.perltidyrc` file in project root (see [Perl::Tidy](http://search.cpan.org/~shancock/Perl-Tidy/) documentation). There is no UI to configure settings for now/
+  * Re-format with `Perl::Tidy` - reformats current file. By default `.perltidyrc` file in project root being used (see [Perl::Tidy](http://search.cpan.org/~shancock/Perl-Tidy/) documentation). You may specify additional command line arguments in the Perl5 settings.
 * Code Generation
   * Actions to generate getters and setters
   * Action to generate class constructor
@@ -65,7 +65,7 @@ useful inspections
   * Context help: hit Ctrl+Q on element in question and get your answer from
 pod files or inline pod
 * Code inspections: 
-  * `Perl::Critic` annotations. All configurations must be done via `.perlcriticrc` file in project root or home dir (see [Perl::Critic](http://search.cpan.org/~thaljef/Perl-Critic/) documentation). There is no any UI to configure `Perl::Critic` settings for now. Only enable/disable checkbox in Perl5 settings.
+  * `Perl::Critic` annotations. By default `.perlcriticrc` file from project root or home dir being used (see [Perl::Critic](http://search.cpan.org/~thaljef/Perl-Critic/) documentation). You may specify additional command line arguments in the Perl5 settings.
   * Labels
     * Undeclared and unresolved labels inspections
   * Packages
