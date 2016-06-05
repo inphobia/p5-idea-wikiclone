@@ -1,10 +1,10 @@
-Unlike editors, the IDE provides much more features and tools and does a lot of different things aside of parsing and highlighting. Because of this IDE is always slower than a simple editor. Everything costs something.
+Unlike text editors, the IDE provides much more features and tools and does a lot of different things aside of parsing and highlighting. Because of this IDE is always slower than a simple editor. Everything costs something.
 
 Perl5 plugin was written by a perl fan, not a professional language plugins developer, so it's far from perfect. This fact causes more performance setbacks.
 
-Some of performance issues are fixable and they will be fixed in time. With every new release plugin becomes faster and faster. Others, however, caused by IDEA architecture and can't be fixed by plugin author, but may be changed by JetBrains, again, in time.
+Some of performance issues are fixable and they will be fixed in time. With every new release the plugin becomes faster and faster. Others performance issues are result of the IDEA architecture and can't be fixed by plugin's author, but may be fixed by JetBrains, again, in time.
 
-However, there are some performance tricks you could use to make your work more comfortable. 
+Still, there are some performance tricks you could use to make your work more comfortable. 
 
 #Multiple namespaces in one file
 <b>Don't use multiple braceless namespaces in one file</b>
@@ -48,8 +48,8 @@ Basically, when IDEA needs to find usages of the variable/sub, it takes all same
 #Large files
 <b>Avoid using large files, keep your programs modular</b>
 
-This is the problem of plugin's parser. IDEA requires separate lexer and perser, so it's not possible to port native perl parser for it (perl parser and lexer works together). The easiest way was to use simple lexer and BNF with manual tunings for a parser. As a result - we have a descending perl parser.
+This is a problem of plugin's parser. IDEA requires separate lexer and perser, so it's not possible to port native perl parser for it (perl parser and lexer works together). The easiest way was to use simple lexer and BNF with manual tunings for a parser. As a result - we have a descending perl parser.
 
-Aside of parser, plugin has a lot of minor performance setbacks, that being fixed from version to version. 
+Parser aside, the plugin has a lot of minor performance setbacks, that are being fixed from version to version. 
 
-Large file is really situational and depends on your hardware, but I found comfortable to work with few thousands lines of code in a single file.
+What is considered to be a larget file depends on your hardware, but I found comfortable to work with few thousands lines of code in a single file.
