@@ -54,7 +54,7 @@ Normal scenario is to start server part (perl process or IDE debugging session) 
 # Implemented features
 
 * Local and remote debugging
-* Step in, step over, step out, run to cursor actions with possible forcing to skip breakpoints on the way
+* Step in, step over, step out, run to cursor, pause actions with possible forcing to skip breakpoints on the way (<b>NB:</b> pause may triggers on next sub invocation.)
 * Breakpoints with possible condition and eval expressions. Dependent breakpoints provided by IDE.
 * Stacktrace view with sub invocation arguments and local variables (scalars with utf8 flag on will have a blue icon border)
 * Namespaces browser
