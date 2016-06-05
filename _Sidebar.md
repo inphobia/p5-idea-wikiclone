@@ -1,6 +1,7 @@
 * [Home](https://github.com/hurricup/Perl5-IDEA/wiki)
 * Features
   * [Basic features](https://github.com/hurricup/Perl5-IDEA/wiki/Implemented-features)
+  * [Dancer & Dancer2](https://github.com/Camelcade/Perl5-IDEA/wiki/Dancer-&-Dancer2)
   * [Debugger](https://github.com/hurricup/Perl5-IDEA/wiki/Perl-Debugger)
   * [Exporter](https://github.com/hurricup/Perl5-IDEA/wiki/Exporter-support)
   * [HTML::Mason](https://github.com/hurricup/Perl5-IDEA/wiki/HTML::Mason-support)
