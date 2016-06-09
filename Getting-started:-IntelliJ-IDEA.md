@@ -2,7 +2,7 @@ Getting started for specialized IDEs may be found [here](https://github.com/hurr
 
 #Installation
 * Install [IntelliJ IDEA](https://www.jetbrains.com/idea/)
-* Start IDEA and go to the `File -> Settings -> Plugins -> Browse repository` and install Camelcade plugin
+* Start IDEA and go to the `File -> Settings -> Plugins -> Browse repository` and install Perl plugin
 * Restart IDEA
 * Before starting, please, check out the list of [implemented features](https://github.com/hurricup/Perl5-IDEA/wiki/Implemented-features) and [known issues](https://github.com/hurricup/Perl5-IDEA/wiki/Known-issues).
 
