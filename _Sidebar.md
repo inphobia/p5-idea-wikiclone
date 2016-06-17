@@ -18,6 +18,7 @@
   * [Known issues](https://github.com/hurricup/Perl5-IDEA/wiki/Known-issues)
   * [Performance tricks](https://github.com/Camelcade/Perl5-IDEA/wiki/Performance-tricks)
   * [Syntax nuances](https://github.com/hurricup/Perl5-IDEA/wiki/Perl-syntax-nuances)
+  * [Google group](https://groups.google.com/forum/#!forum/camelcade)
   * [Bug report policy](https://github.com/hurricup/Perl5-IDEA/wiki/Bug-report-policy)
   * [Contribution policy](https://github.com/hurricup/Perl5-IDEA/wiki/Contribution-policy)
   * [Release policy](https://github.com/hurricup/Perl5-IDEA/wiki/Release-policy)
