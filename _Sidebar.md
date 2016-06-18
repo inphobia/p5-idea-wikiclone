@@ -16,6 +16,7 @@
   * [Mason2](https://github.com/hurricup/Perl5-IDEA/wiki/Mason2-support)
   * [Mojolicious](https://github.com/hurricup/Perl5-IDEA/wiki/Mojolicious-support)
   * [Moose/Moo](https://github.com/hurricup/Perl5-IDEA/wiki/Moose-support)
+  * [Template Toolkit 2](https://github.com/Camelcade/Perl5-IDEA/wiki/Template-Toolkit-2)
 * Misc
   * [Bug report policy](https://github.com/hurricup/Perl5-IDEA/wiki/Bug-report-policy)
   * [Contribution policy](https://github.com/hurricup/Perl5-IDEA/wiki/Contribution-policy)
