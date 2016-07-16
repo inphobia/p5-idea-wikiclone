@@ -8,3 +8,6 @@ If sub or variable can't be resolved because of tricky usage or invocation, it w
 
 ##Large files performance
 Editing of files larger than 100kb may be laggy. Situation is going better with every version, but not sure it will be perfect sometime. So recommend to avoid creating huge files.
+
+##Spaces before/after markers in Template Toolkit
+Current plugin version is compatible with IDEA 14+ and there is a bug for templating languages, which been fixed in IDEA 15. Spaces being set correctly inside other directives, like IF, but still not set on the file level. This will be fixed after migrating to IDEA 15+
