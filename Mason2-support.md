@@ -7,3 +7,4 @@ Camelcade supports [Mason2](http://search.cpan.org/~jswartz/Mason/lib/Mason.pm):
 * Automatic close tag insertion on typing
 * Formatter and pre-formatter for perl code
 * Live-templates for Mason2 syntax constructions
+* Configurable templating language
