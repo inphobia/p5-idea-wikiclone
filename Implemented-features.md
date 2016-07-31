@@ -59,6 +59,7 @@ Here is the list of features, currently implemented in the Camelcade (don't forg
   * Create Perl5 scripts, packages, tests and templates context menu actions.
 * Intentions 
   * Convert string to here-doc
+  * Convert foreach loop to for loop, by [@brnrc](https://github.com/brnrc)
 * Documentation
   * POD support: live templates, completion, navigation, refactoring and few
 useful inspections
@@ -66,6 +67,7 @@ useful inspections
 pod files or inline pod
 * Code inspections: 
   * `Perl::Critic` annotations. By default `.perlcriticrc` file from project root or home dir being used (see [Perl::Critic](http://search.cpan.org/~thaljef/Perl-Critic/) documentation). You may specify additional command line arguments in the Perl5 settings.
+  * Identifiers syntax for non-utf files
   * Labels
     * Undeclared and unresolved labels inspections
   * Packages
