@@ -95,6 +95,6 @@ pod files or inline pod
     * Web-related: JSON, CSS, DTD, XHTML, XML, HTML
     * Templating: EPERL5, MOJO
     * Misc: JAVA, YAML, MANIFEST, PHP, PYTHON, PERL5
-  * `#@inject` annotation, allows you to inject other languages in strings. Annotation may be before the string, before the statement containing the string or in the end of line string ends. (NB: eol annotation may be misleading and should be considered experimental, see [#1072](https://github.com/hurricup/Perl5-IDEA/issues/1072). Need a feedback.)
+  * `#@inject` annotation, allows you to inject other languages in strings. Annotation may be before the string or before the statement containing the string.
 * IDEA extensions
   * Extension point for package processors and set of interfaces to implement custom package processors (like `Mojo::Base` which is `strict`+`v5.10`+`base`)
