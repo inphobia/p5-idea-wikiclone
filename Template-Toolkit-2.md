@@ -7,5 +7,6 @@ Since [version 2.100](https://github.com/Camelcade/Perl5-IDEA/releases/tag/2.100
 * Inspection for incorrectly positioned directives
 * Files navigation and auto-completion
 * Blocks navigation and auto-completion
-
-
+* Configurable templating language
+* Color settings
+* Formatter
