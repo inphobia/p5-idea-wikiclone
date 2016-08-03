@@ -67,6 +67,7 @@ Normal scenario is to start server part (perl process or IDE debugging session) 
 * Atm there is no threading support, it hasn't been tested in threaded environment
 * forked processes has not been tested
 * Watch evals are being done in scalar context, so if you'll try to watch `@somearray`, you'll probably get just number of elements. To make this work, you should add a reference to watch: `\@somearray`
+* If you want to make an anon hash in the watch expression, prefix it with a plus sign, so perl could understand that this is not a code block: `+{map {$_->{key} => 1} @list}`
 * Avoid mutating watches or conditions. e.g. watch like `$somevar++` or `$sth->fetchrow_hashref` will break your code flow.
 * If you are familiar with perl native debugger and actions from there, in IDEA they are part of breakpoints, see 'Log evaluated expression'. Note, that your expression should not print anything, it should return a value which 
 should be printed in console of IDE. Breakpoint condition affects these too. So they will be printed only if condition is met.
