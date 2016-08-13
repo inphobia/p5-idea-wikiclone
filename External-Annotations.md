@@ -66,3 +66,8 @@ Sub names and package names have intentions to annotate on any available level:
 Annotations themselves has gutter icons to navigate between levels and syntax autocompletion, including available namespaces and subs:
 
 ![Screenshot](https://github.com/Camelcade/Perl5-IDEA/blob/master/images/ea/completion.png)
+
+# Contribution
+
+If you've annotated a CPAN module for yourself, feel free to contribute your annotations to the plugin using pull-request. Annotations may be found [here](https://github.com/Camelcade/Perl5-IDEA/tree/master/annotations). Please, 
+keep contributed annotations in the file-per-namespace format, e.g `Foo/Bar/Baz.pmea` for `Foo::Bar::Baz`. It's not required for plugin to work correctly, but will help to keep an order.
