@@ -1,4 +1,4 @@
-Namespaces and subs annotations are pretty useful in my daily coding. They allow the plugin to resolve names 
+Namespaces and subs [annotations](https://github.com/hurricup/Perl5-IDEA/wiki/Subs-annotations) are pretty useful in my daily coding. They allow the plugin to resolve names 
 properly, make object oriented auto-completion possible and allow deprecating things for myself and collegues.
 
 But once you've gotten used to them, you might need to install and extensively use some CPAN module which is not annotated.
