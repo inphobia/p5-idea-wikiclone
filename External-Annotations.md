@@ -1,5 +1,3 @@
-# External Annotations
-
 Namespaces and subs annotations are pretty useful in my daily coding. They allow the plugin to resolve names 
 properly, make object oriented auto-completion possible and allow deprecating things for myself and collegues.
 
