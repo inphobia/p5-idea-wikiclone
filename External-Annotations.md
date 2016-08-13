@@ -7,7 +7,7 @@ But once you've got used to them, you may need to install and extensively use so
 
 And this is really... uncomfortable. There are few ways to handle this situation, but all of them has their flaws.
 
-This is why exernal annotations has been made.
+This is why exernal annotations has been made in 2.300 release.
 
 # Basics
 
