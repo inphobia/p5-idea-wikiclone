@@ -1,4 +1,4 @@
-Camelcade introduces the annotations, which adds a meta-information to your code, helping plugin to assist you better in your work.
+Camelcade introduces annotations, these annotations adds a meta-information to your code, helping the plugin to assist you better in your daily work.
 
 ## #@deprecated
 ```
@@ -15,7 +15,7 @@ Such sub, variable or a namespace will be stroke out everywhere in your project 
 
 # Literals annotations
 ## #@inject 
-Alows you to inject other languages into the string contents. Like:
+Allows you to inject other languages into the string contents. Like:
 ```
 #@inject MYSQL
 my $sql = 'SELECT UNIX_TIMESTAMP()`;
