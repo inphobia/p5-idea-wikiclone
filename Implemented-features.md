@@ -18,7 +18,7 @@ Here is the list of features, currently implemented in the Camelcade (don't forg
   * Brace matching, quote matching, regex delimiters matching, code folding, quote handling.
   * File structure view
   * Class hierarchy view
-  * [Subs and packages annotations] (https://github.com/hurricup/Perl5-IDEA/wiki/Subs-annotations)
+  * [Subs, Variables and packages annotations] (https://github.com/hurricup/Perl5-IDEA/wiki/Annotations)
   * Perl5 interpreter (SDK) and Perl5 module type support. You should add Perl5 interpreter as project SDK to give Camelcade access to installed packages. [More..](https://github.com/hurricup/Perl5-IDEA/wiki/Getting-started)
 * Configuration
   * Run configurations for Perl scripts
