@@ -6,7 +6,7 @@
   * [Subs resolution](https://github.com/hurricup/Perl5-IDEA/wiki/Subs-resolution-status)
   * [Syntax nuances](https://github.com/hurricup/Perl5-IDEA/wiki/Perl-syntax-nuances)
   * [Performance tricks](https://github.com/Camelcade/Perl5-IDEA/wiki/Performance-tricks)
-  * [Annotations](https://github.com/hurricup/Perl5-IDEA/wiki/Subs-annotations)
+  * [Annotations](https://github.com/Camelcade/Perl5-IDEA/wiki/Annotations)
   * [External Annotations](https://github.com/Camelcade/Perl5-IDEA/wiki/External-Annotations)
 * Features
   * [Basic features](https://github.com/hurricup/Perl5-IDEA/wiki/Implemented-features)
