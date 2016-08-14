@@ -1,0 +1,1 @@
+[Moved](https://github.com/Camelcade/Perl5-IDEA/wiki/Annotations)
