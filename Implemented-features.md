@@ -17,14 +17,17 @@ Here is the list of features, currently implemented in the Camelcade (don't forg
   * Interpolation in appropriate strings, here-docs and regexps.
   * Brace matching, quote matching, regex delimiters matching, code folding, quote handling.
   * File structure view
+  * Current context view
   * Class hierarchy view
   * [Subs, Variables and packages annotations](https://github.com/hurricup/Perl5-IDEA/wiki/Annotations)
   * Perl5 interpreter (SDK) and Perl5 module type support. You should add Perl5 interpreter as project SDK to give Camelcade access to installed packages. [More..](https://github.com/hurricup/Perl5-IDEA/wiki/Getting-started)
+  * Spell checking in perl files
 * Configuration
   * Run configurations for Perl scripts
   * Self-object reference variable names
   * Automatic language injection in here-doc 
 * Navigation & Refactoring
+  * Finding usages for built in namespaces, subs and variables
   * Gutter navigation to super/sub classes
   * Gutter navigation to super/inner class methods
   * Go to symbol navigation for: subs, constants, packages and global variables
