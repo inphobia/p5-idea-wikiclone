@@ -2,7 +2,7 @@ Here is the list of features, currently implemented in the Camelcade (don't forg
 
 * Perl5 lexing and parsing. As soon as it's not a port of native Perl5 lexer/parser, it may have some bugs. If you've encountered situation, where your code is not being parsed properly, feel free to create an issue with code example. 
 * Currently supported languages are Perl5, POD, and some extensions:
-  * [Class::Accessor](http://search.cpan.org/~kasei/Class-Accessor/lib/Class/Accessor.pm) api 
+  * [Class::Accessor](http://search.cpan.org/~kasei/Class-Accessor/lib/Class/Accessor.pm) API ([annotations](https://github.com/Camelcade/Perl5-IDEA/wiki/Annotations) supported).
   * [TryCatch](http://search.cpan.org/~ash/TryCatch/lib/TryCatch.pm) basic support. Currently `catch{}`, `catch($var){}` and `catch(Foo::Bar $var){}` are supported
   * [Method::Signatures::Simple](http://search.cpan.org/dist/Method-Signatures-Simple/lib/Method/Signatures/Simple.pm) - `method` and `func`
   * Php-style Perl5 (Embedded perl)
