@@ -18,7 +18,7 @@ Here is the list of features, currently implemented in the Camelcade (don't forg
   * Brace matching, quote matching, regex delimiters matching, code folding, quote handling.
   * File structure view
   * Class hierarchy view
-  * [Subs, Variables and packages annotations] (https://github.com/hurricup/Perl5-IDEA/wiki/Annotations)
+  * [Subs, Variables and packages annotations](https://github.com/hurricup/Perl5-IDEA/wiki/Annotations)
   * Perl5 interpreter (SDK) and Perl5 module type support. You should add Perl5 interpreter as project SDK to give Camelcade access to installed packages. [More..](https://github.com/hurricup/Perl5-IDEA/wiki/Getting-started)
 * Configuration
   * Run configurations for Perl scripts
@@ -28,7 +28,7 @@ Here is the list of features, currently implemented in the Camelcade (don't forg
   * Gutter navigation to super/sub classes
   * Gutter navigation to super/inner class methods
   * Go to symbol navigation for: subs, constants, packages and global variables
-  * Go to declaration navigation for subs, variables, packages, labels and here-doc markers. See [current subs resolution status] (https://github.com/hurricup/Perl5-IDEA/wiki/Subs-resolution-status).
+  * Go to declaration navigation for subs, variables, packages, labels and here-doc markers. See [current subs resolution status](https://github.com/hurricup/Perl5-IDEA/wiki/Subs-resolution-status).
   * Both `dfs` and `c3` mros supported for methods resolution
   * AUTOLOADed methods may be resolved, if AUTOLOAD declared as a named block, not sub
   * All navigatable entities can be refactored
