@@ -24,6 +24,7 @@ $other_obj->method(); # we know that it's a Foo::Baz method
 Inheritance is partially implemented, refactoring of object methods better not to use yet.
 
 ## What is planned
+* Proper resolve for lexical subs. For now they are treated as regular ones
 * Implement and improve heuristic to understand Perl code
 * Annotation files, to be able to define return values and prototypes for packages without them 
 * subs annotations for structures of objects, like: 
