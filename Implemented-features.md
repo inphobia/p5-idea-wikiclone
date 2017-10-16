@@ -4,12 +4,7 @@ Here is the list of features, currently implemented in the Camelcade (don't forg
 * Currently supported languages are Perl5, POD, and some extensions:
   * [Class::Accessor](http://search.cpan.org/~kasei/Class-Accessor/lib/Class/Accessor.pm) api 
   * [TryCatch](http://search.cpan.org/~ash/TryCatch/lib/TryCatch.pm) basic support. Currently `catch{}`, `catch($var){}` and `catch(Foo::Bar $var){}` are supported
-  * [Exporter](https://github.com/hurricup/Perl5-IDEA/wiki/Exporter-support)
-  * [HTML::Mason](https://github.com/hurricup/Perl5-IDEA/wiki/HTML::Mason-support)
-  * [Mason2](https://github.com/hurricup/Perl5-IDEA/wiki/Mason2-support)
   * [Method::Signatures::Simple](http://search.cpan.org/dist/Method-Signatures-Simple/lib/Method/Signatures/Simple.pm) - `method` and `func`
-  * [Mojolicious templates](https://github.com/hurricup/Perl5-IDEA/wiki/Mojolicious-support) 
-  * [Moose](https://github.com/hurricup/Perl5-IDEA/wiki/Moose-support)
   * Php-style Perl5 (Embedded perl)
   * [Switch](http://perldoc.perl.org/5.8.8/Switch.html) core module
 * Miscellaneous
