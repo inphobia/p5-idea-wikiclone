@@ -1,6 +1,5 @@
 * [Home](https://github.com/hurricup/Perl5-IDEA/wiki)
-* Getting Started
-  * [First project](https://github.com/Camelcade/Perl5-IDEA/wiki/Getting-started)
+* [Getting started](https://github.com/Camelcade/Perl5-IDEA/wiki/Getting-started)
   * [Known issues](https://github.com/hurricup/Perl5-IDEA/wiki/Known-issues)
   * [Subs resolution](https://github.com/hurricup/Perl5-IDEA/wiki/Subs-resolution-status)
   * [Syntax nuances](https://github.com/hurricup/Perl5-IDEA/wiki/Perl-syntax-nuances)
