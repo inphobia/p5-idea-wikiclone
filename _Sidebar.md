@@ -10,6 +10,7 @@
   * [External Annotations](https://github.com/Camelcade/Perl5-IDEA/wiki/External-Annotations)
   * [Dancer & Dancer2](https://github.com/Camelcade/Perl5-IDEA/wiki/Dancer-&-Dancer2)
   * [Debugger](https://github.com/hurricup/Perl5-IDEA/wiki/Perl-Debugger)
+  * [Exception::Class](https://github.com/Camelcade/Perl5-IDEA/wiki/Exception::Class)
   * [Exporter](https://github.com/hurricup/Perl5-IDEA/wiki/Exporter-support)
   * [HTML::Mason](https://github.com/hurricup/Perl5-IDEA/wiki/HTML::Mason-support)
   * [Mason2](https://github.com/hurricup/Perl5-IDEA/wiki/Mason2-support)
