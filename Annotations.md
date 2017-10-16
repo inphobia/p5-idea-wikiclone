@@ -65,9 +65,15 @@ The plugin using following priority:
 #@returns Foo::Bar
 sub foo_bar_getter { ... }
 ```
-Specify sub return value.
+Specify sub return value class.
 
 `new` is implicitly annotated with package it's invoked for.
+
+```
+#@returns *
+sub self_getter{ ... }
+```
+Means that method always returns `$self`
 
 ## #@method
 ```
