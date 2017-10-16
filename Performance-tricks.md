@@ -6,36 +6,7 @@ Some of performance issues are fixable and they will be fixed in time. With ever
 
 Still, there are some performance tricks you could use to make your work more comfortable. 
 
-#Multiple namespaces in one file
-<b>Don't use multiple braceless namespaces in one file</b>
-
-I think it's bad practice to put multiple namespaces into the one file and the only reason this is reasonable - using closures. But this is twice bad :) 
-
-Howewer, if by some reasons need to use multiple namespaces, use braced format, it works much faster in Camelcade:
-```
-package Foo::Bar{
-    ...
-}
-package Foo::Baz{
-    ...
-}
-...
-package Foo::Foo{
-    ...
-}
-```
-instead of
-```
-package Foo::Bar;
-    ...
-package Foo::Baz;
-    ...
-package Foo::Foo;
-    ...
-```
-This problem caused by the plugin and probably going to be fixed. For now, you may split your super-file into file-per-package and put `use Foo::Bar`, `use Foo::Baz`, `use Foo::Foo` to original file instead of packages definitions.
-
-#Identifiers
+# Identifiers
 <b>Use long and self-explanatory variables and subs names if it's possible. `get_something_this` and `$database_handler` is much faster than `gst` and `$dbh`</b>
 
 I guess that thre are two reasons of short perl identifiers:
@@ -45,7 +16,7 @@ I guess that thre are two reasons of short perl identifiers:
 
 Basically, when IDEA needs to find usages of the variable/sub, it takes all same words from the internal index and checks every found word, if it leads to this definition. And this being done not only when you explicitly trying to find usages. IDEA may do this for it's internal reasons.
 
-#Large files
+# Large files
 <b>Avoid using large files, keep your programs modular</b>
 
 This is a problem of plugin's parser. IDEA requires separate lexer and perser, so it's not possible to port native perl parser for it (perl parser and lexer works together). The easiest way was to use simple lexer and BNF with manual tunings for a parser. As a result - we have a descending perl parser.
