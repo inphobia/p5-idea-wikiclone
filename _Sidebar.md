@@ -1,7 +1,6 @@
 * [Home](https://github.com/hurricup/Perl5-IDEA/wiki)
 * Getting Started
-  * [IDEA](https://github.com/hurricup/Perl5-IDEA/wiki/Getting-started:-IntelliJ-IDEA)
-  * [Other IDEs](https://github.com/hurricup/Perl5-IDEA/wiki/Getting-started:-specialized-IDEs-(PyCharm,-PHPStorm,-etc))
+  * [First project](https://github.com/Camelcade/Perl5-IDEA/wiki/Getting-started)
   * [Known issues](https://github.com/hurricup/Perl5-IDEA/wiki/Known-issues)
   * [Subs resolution](https://github.com/hurricup/Perl5-IDEA/wiki/Subs-resolution-status)
   * [Syntax nuances](https://github.com/hurricup/Perl5-IDEA/wiki/Perl-syntax-nuances)
