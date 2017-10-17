@@ -1,1 +1,0 @@
-This page has been [moved](https://github.com/Camelcade/Perl5-IDEA/wiki/Getting-started).
