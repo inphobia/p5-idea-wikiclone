@@ -65,7 +65,7 @@ The plugin using following priority:
 #@returns Foo::Bar
 sub foo_bar_getter { ... }
 ```
-Specify sub return value class.
+Specify sub return value class. This annotation should work with subs declared in any way: `sub`, `method`, `function`, `has`, `Class::Accessor` getters, etc.
 
 `new` is implicitly annotated with package it's invoked for.
 
