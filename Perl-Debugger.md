@@ -57,6 +57,8 @@ Normal scenario is to start server part (perl process or IDE debugging session) 
 * Step in, step over, step out, run to cursor, pause actions with possible forcing to skip breakpoints on the way (<b>NB:</b> pause may triggers on next sub invocation.)
 * Breakpoints with possible condition and eval expressions. Dependent breakpoints provided by IDE.
 * Stacktrace view with sub invocation arguments and local variables (scalars with utf8 flag on will have a blue icon border)
+* Layers information for handles
+* Tie information for variables
 * Namespaces browser
 * Loaded sources browser
 * Compiled evals browser 
