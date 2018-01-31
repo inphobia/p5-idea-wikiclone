@@ -21,8 +21,6 @@ $other_obj->method(); # we know that it's a Foo::Baz method
 ```
 * `Foo::Bar->new->method->other_method` - with inheritance. To make this work, methods should be [annotated](https://github.com/hurricup/Perl5-IDEA/wiki/Subs-annotations) with `#@returns`.
 
-Inheritance is partially implemented, refactoring of object methods better not to use yet.
-
 ## What is planned
 * Proper resolve for lexical subs. For now they are treated as regular ones
 * Implement and improve heuristic to understand Perl code
