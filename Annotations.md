@@ -45,12 +45,15 @@ This is where `#@type` annotation may be used:
 ```
 my ( 
     $var1, 
+    #@type __PACKAGE__
     $var2,
     #@type Foo::Bar
     $var3 
 ) = @_;
 ```
-This annotation will tell the plugin that `$var3` contains a reference to the `Foo::Bar` object. Annotation may be just before a variable in declaration or before a declaration expression.
+This annotation will tell the plugin that `$var2` contains a reference to the object with containing class 
+and `$var3` contains a reference to the `Foo::Bar` object. 
+Annotation may be just before a variable in declaration or before a declaration expression.
 
 The plugin using following priority:
 
@@ -73,7 +76,7 @@ Specify sub return value class. This annotation should work with subs declared i
 #@returns *
 sub self_getter{ ... }
 ```
-Means that method always returns `$self`
+Means that method always returns `$self`. You may also specify `__PACKAGE__` type, meaning the same as in Perl itself.
 
 ## #@method
 ```

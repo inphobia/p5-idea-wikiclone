@@ -20,7 +20,9 @@ Here is the list of features, currently implemented in the Camelcade (don't forg
 * Configuration
   * Run configurations for Perl scripts
   * Self-object reference variable names
-  * Automatic language injection in here-doc 
+  * Automatic language injection in here-doc
+* Coverage support
+  * You may run your scripts with coverage, using `Devel::Cover`  
 * Navigation & Refactoring
   * Finding usages for built in namespaces, subs and variables
   * Gutter navigation to super/sub classes
@@ -58,6 +60,7 @@ Here is the list of features, currently implemented in the Camelcade (don't forg
 * Intentions 
   * Convert string to here-doc
   * Convert foreach loop to for loop, by [@brnrc](https://github.com/brnrc)
+  * Convert a statement with modifier to the respective compound statement and vice versa  
 * Documentation
   * POD support: live templates, completion, navigation, refactoring and few
 useful inspections
@@ -87,6 +90,7 @@ pod files or inline pod
     * Lexical built-in declaration
     * Unused lexical variables 
     * Unused global variables 
+    * `use vars` deprecated declaration with a quick-fix to convert to `our` declaration. 
     * File level variables inspection. (Pretty useful while migrating from CGI to some persistent environment)
 * IntelliLang integration. 
   * Heredoc texts may be automatically injected with other language, depending on marker text. To make this work, IntelliLang plugin must be enabled and appropriate Language supported by IDEA natively or via plugin. Following markers are currently supported:
