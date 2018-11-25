@@ -59,6 +59,7 @@ Normal scenario is to start server part (perl process or IDE debugging session) 
 * Stacktrace view with sub invocation arguments and local variables (scalars with utf8 flag on will have a blue icon border)
 * Layers information for handles
 * Tie information for variables
+* `fileno` information for handles
 * Namespaces browser
 * Loaded sources browser
 * Compiled evals browser 

@@ -17,10 +17,15 @@ Here is the list of features, currently implemented in the Camelcade (don't forg
   * [Subs, Variables and packages annotations](https://github.com/hurricup/Perl5-IDEA/wiki/Annotations)
   * Perl5 interpreter (SDK) and Perl5 module type support. You should add Perl5 interpreter as project SDK to give Camelcade access to installed packages. [More..](https://github.com/hurricup/Perl5-IDEA/wiki/Getting-started)
   * Spell checking in perl files
+  * Scripts execution in the console 
 * Configuration
   * Run configurations for Perl scripts
   * Self-object reference variable names
   * Automatic language injection in here-doc
+* Dependencies
+  * Plugin watches scripts output and in case missing package error, suggests to install a missing package with `cpan` or `cpanm`
+  * Action to install an `App::cpanminus` (may be version-manager dependent, e.g. `perlbrew` installs one for all perls)    
+  * Action to install an arbitrary packages
 * Coverage support
   * You may run your scripts with coverage, using `Devel::Cover`  
 * Navigation & Refactoring
@@ -49,7 +54,7 @@ Here is the list of features, currently implemented in the Camelcade (don't forg
   * Conversion `$var->{key}` to `$$var{key}` and vice versa.
   * Conversion `@$array_ref` to `@{$array_ref}` and vice versa (does not affects hash/array elements or slices).
   * Conversion `main::` to `::` and vice versa.
-* Actions
+* Other Actions
   * Deparse file - deparses current file using `B::Deparse`.
   * Re-format with `Perl::Tidy` - reformats current file. By default `.perltidyrc` file in project root being used (see [Perl::Tidy](http://search.cpan.org/~shancock/Perl-Tidy/) documentation). You may specify additional command line arguments in the Perl5 settings.
 * Code Generation
@@ -72,7 +77,7 @@ pod files or inline pod
   * Labels
     * Undeclared and unresolved labels inspections
   * Packages
-    * Missing package file
+    * Missing package file with a quickfix to install package using `cpan` or `cpanm`
     * Undefined namespace
     * Multiple namespace definitions
     * Namespace clash with core namespace
@@ -93,12 +98,8 @@ pod files or inline pod
     * `use vars` deprecated declaration with a quick-fix to convert to `our` declaration. 
     * File level variables inspection. (Pretty useful while migrating from CGI to some persistent environment)
 * IntelliLang integration. 
-  * Heredoc texts may be automatically injected with other language, depending on marker text. To make this work, IntelliLang plugin must be enabled and appropriate Language supported by IDEA natively or via plugin. Following markers are currently supported:
-    * JavaScript: JS, JS15, JS16, JS17, JS18, APPLEJS
-    * Database: SQL, MYSQL, PGSQL, TSQL, OSQLP, DB2, SQL92, SQLITE, SYBASE, HSQLDB, GSQL, OSQL (Both Database navigator and JetBrains Database tools are supported)
-    * Web-related: JSON, CSS, DTD, XHTML, XML, HTML
-    * Templating: EPERL5, MOJO
-    * Misc: JAVA, YAML, MANIFEST, PHP, PYTHON, PERL5
+  * Heredoc texts may be automatically injected with other language, depending on marker text. To make this work, IntelliLang plugin must be 
+  enabled and appropriate Language supported by IDEA natively or via plugin. Markers and languages are configurable in Perl5 settings. 
   * `#@inject` annotation, allows you to inject other languages in strings. Annotation may be before the string or before the statement containing the string.
 * IDEA extensions
   * Extension point for package processors and set of interfaces to implement custom package processors (like `Mojo::Base` which is `strict`+`v5.10`+`base`)
