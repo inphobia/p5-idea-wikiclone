@@ -12,3 +12,5 @@ Camelcade supports [Mojolicious](http://mojolicio.us/) templates. At the moment 
 * Mojolicious attributes declared with `has` are supported.
 * Both helpers and attributes may be [annotated](https://github.com/Camelcade/Perl5-IDEA/wiki/Annotations)
 * Configurable templating language
+
+Since [version 2018.3](https://github.com/Camelcade/Perl5-IDEA/releases/tag/2018.3) `Mojolicious` support available via [separate plugin](https://plugins.jetbrains.com/plugin/11336-mojolicious-support).

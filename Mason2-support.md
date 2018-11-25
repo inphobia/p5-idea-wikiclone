@@ -8,3 +8,5 @@ Camelcade supports [Mason2](http://search.cpan.org/~jswartz/Mason/lib/Mason.pm):
 * Formatter and pre-formatter for perl code
 * Live-templates for Mason2 syntax constructions
 * Configurable templating language
+
+Since [version 2018.3](https://github.com/Camelcade/Perl5-IDEA/releases/tag/2018.3) `Mason2` support available via [separate plugin](https://plugins.jetbrains.com/plugin/11338-mason2-support).

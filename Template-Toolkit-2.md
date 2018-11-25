@@ -10,3 +10,5 @@ Since [version 2.100](https://github.com/Camelcade/Perl5-IDEA/releases/tag/2.100
 * Configurable templating language
 * Color settings
 * Formatter
+
+Since [version 2018.3](https://github.com/Camelcade/Perl5-IDEA/releases/tag/2018.3) `Template Toolkit` support available via [separate plugin](https://plugins.jetbrains.com/plugin/11335-template-toolkit-support).
