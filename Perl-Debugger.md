@@ -47,6 +47,8 @@ Configuration options looks pretty much the same as in Perl configuration with f
 * Connection mode - defines what is going to connnect to what. Relates to `PERL5_DEBUG_ROLE` environment variable.
 * Server host and port - relates to `PERL5_DEBUG_HOST` and `PERL5_DEBUG_PORT` respectively.
 
+Configuration editor provides a template command line for starting your script according to selected settings.
+
 IDE attempts to connect to process immediately (if perl acts as host) and stops trying if it fails. Perl process tries to connect to IDE 10 times with 1 second pause, and stops if there is no success. 
 
 Normal scenario is to start server part (perl process or IDE debugging session) and than start the client part.
