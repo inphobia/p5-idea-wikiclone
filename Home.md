@@ -9,3 +9,5 @@ Perl5 is really syntax-flexible, what can be really convenient in one-line progr
 
 I think, It's not possible to create 100% proper Perl5 lexer/parser without 100% repeating Perl5 respective sources, but we can try to do 
 our best.
+
+[![Donate to support Project](https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HJCUADZKY5G7E)
