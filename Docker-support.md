@@ -17,3 +17,5 @@ This action updates local cache files.
 some helpers scripts and IDE internal files. Any changes inside this mount point are changes to your host machine filesystem, not container.
 
 Docker support available with a [separate plugin](https://plugins.jetbrains.com/plugin/11328), available for professional versions of IDEs.
+
+Nice introduction to docker: https://youtu.be/YFl2mCHdv24
