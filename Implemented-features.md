@@ -71,7 +71,8 @@ Here is the list of features, currently implemented in the Camelcade (don't forg
 useful inspections
   * Context help: hit Ctrl+Q on element in question and get your answer from
 pod files or inline pod
-* Code inspections: 
+* Code inspections:
+  * Sub signatures positioning inspection. Checks if signature position conforms the selected target perl version with quickfixes (#1785).  
   * `Perl::Critic` annotations. By default `.perlcriticrc` file from project root or home dir being used (see [Perl::Critic](http://search.cpan.org/~thaljef/Perl-Critic/) documentation). You may specify additional command line arguments in the Perl5 settings.
   * Identifiers syntax for non-utf files
   * Labels
