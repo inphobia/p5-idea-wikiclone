@@ -18,4 +18,4 @@ some helpers scripts and IDE internal files. Any changes inside this mount point
 
 Docker support available with a [separate plugin](https://plugins.jetbrains.com/plugin/11328), available for professional versions of IDEs.
 
-Nice introduction to docker: https://youtu.be/YFl2mCHdv24
+Nice introduction to Docker: https://youtu.be/YFl2mCHdv24
