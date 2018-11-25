@@ -7,7 +7,6 @@
 * Features
   * [Basic features](https://github.com/hurricup/Perl5-IDEA/wiki/Implemented-features)
   * [Annotations](https://github.com/Camelcade/Perl5-IDEA/wiki/Annotations)
-  * [External Annotations](https://github.com/Camelcade/Perl5-IDEA/wiki/External-Annotations)
   * [Debugger](https://github.com/hurricup/Perl5-IDEA/wiki/Perl-Debugger)
   * [Exception::Class](https://github.com/Camelcade/Perl5-IDEA/wiki/ExceptionClass)
   * [Exporter](https://github.com/hurricup/Perl5-IDEA/wiki/Exporter-support)
