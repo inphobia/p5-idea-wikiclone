@@ -10,7 +10,8 @@ Perl is ambiguous enough, to add more. Plugin created to develop a product, not 
 * Try to avoid using 'fancy' object method calls `method Foo::Bar`. Use canonical `Foo::Bar->method`. Fancy usage is supported, but may be glitchy.
 * Camelcade actively using type in variable declaration: `my Foo::Bar $foo_bar_object`. Types helps to resolve methods.
 
-#Interpolation
+# Interpolation
+
 Interpolation of complicated constructs, like `$var->{index}->[index]` in Perl works as [follows](http://perldoc.perl.org/perlop.html#Interpolation):
 
 > Most of the time, the longest possible text that does not include spaces between components and which contains matching braces or brackets. because the outcome may be determined by voting based on heuristic estimators, the result is not strictly predictable. Fortunately, it's usually correct for ambiguous cases.
