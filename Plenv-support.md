@@ -5,3 +5,6 @@ Following features available:
 
 * Add fully-functional Perl5 interpreter from the Plenv installation
 * Action to install new Perl to the Plenv
+
+Do note that plenv & perlbrew aren't compatible according to the plenv
+devs: https://github.com/tokuhirom/plenv#installation
