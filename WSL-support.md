@@ -56,4 +56,4 @@ WSL support available with a [separate plugin](https://plugins.jetbrains.com/plu
   * select your distribution
   * select plenv
   * select a perl version
-* repeat if you want more that 1 perl version configured.
+* repeat if you want more than 1 perl version configured.
